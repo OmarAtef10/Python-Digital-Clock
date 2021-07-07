@@ -26,6 +26,7 @@ root.attributes("-fullscreen", False)
 root.configure(background="black")
 root.bind("x", quit)
 root.after(1000, clock)
+root.title("DigitalClock")
 
 font = font.Font(family='Helvetica', size=69)
 txt = StringVar()
